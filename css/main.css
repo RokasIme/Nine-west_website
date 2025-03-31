@@ -1,0 +1,132 @@
+@font-face {
+  font-family: Monserat;
+  src: url(../Fonts/Monserat/static/Montserrat-Regular.ttf);
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Monserat;
+  src: url(../Fonts/Monserat/static/Montserrat-Bold.ttf);
+  font-weight: bold;
+  font-style: normal;
+}
+* {
+  border: border-box;
+  margin: 0 0;
+  padding: 0 0;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 3%;
+}
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.hr__upper {
+  margin: 10px 0;
+  border-top: 2px solid black;
+  width: 100%;
+}
+
+.logo {
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #333;
+}
+.header__nav {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+.header__links {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 5px;
+}
+.header__links > a {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #333;
+}
+.header__links > a:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+}
+
+.header__right {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+.header__right__up {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 0 10px 15px 0;
+  gap: 10px;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+.header__right__up > a {
+  text-decoration: none;
+  color: #333;
+}
+
+.header__right__donw {
+  display: flex;
+  gap: 15px;
+}
+.header__right__donw > a {
+  text-decoration: none;
+  color: #333;
+}
+.pirmaft,
+.antraft {
+  display: flex;
+  width: 100%;
+}
+
+.pirma,
+.antra,
+.trecia,
+.ketvirta {
+  height: 50%;
+}
+
+.prekes {
+  display: flex;
+  justify-content: space-between;
+  height: 50vh;
+  background-color: aqua;
+  width: 100%;
+}
+
+.dvifotkes {
+  display: flex;
+}
+.batai3 {
+  width: 45%;
+}
+.batai4 {
+  width: 45%;
+}
+.hr2 {
+  margin-top: 1%;
+  margin-left: -5%;
+  border: 3px black solid;
+  width: 110%;
+}
