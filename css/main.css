@@ -29,6 +29,7 @@ header {
   width: 100%;
   display: flex;
   flex-direction: row;
+  margin-bottom: 15px;
 }
 
 .hr__upper {
@@ -46,7 +47,7 @@ header {
 .header__nav {
   display: flex;
   flex-direction: column;
-  width: 65%;
+  width: 70%;
 }
 .header__links {
   display: flex;
@@ -69,7 +70,7 @@ header {
 .header__right {
   display: flex;
   flex-direction: column;
-  width: 35%;
+  width: 30%;
 }
 .header__right__up {
   display: flex;
@@ -86,8 +87,33 @@ header {
   color: #333;
 }
 
+.search__bar {
+  position: relative;
+}
+
+.search__bar .icon {
+  position: absolute;
+  top: 47%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
+.search__bar .input__text {
+  border: lightgray solid 0.05em;
+  background-color: #fff;
+  height: 15px;
+  padding: 5px 5px 5px 35px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+.search__bar .input__text:focus {
+  width: 80%;
+  background-color: #ccc;
+}
+
 .header__right__donw {
   display: flex;
+  align-items: center;
   gap: 15px;
 }
 .header__right__donw > a {
@@ -98,35 +124,43 @@ header {
 .antraft {
   display: flex;
   width: 100%;
+  margin-bottom: 5px;
 }
 
 .pirma,
 .antra,
 .trecia,
 .ketvirta {
-  height: 50%;
+  height: 40%;
+  margin-top: 2rem;
+  padding: 10px;
 }
 
 .prekes {
   display: flex;
-  justify-content: space-between;
-  height: 50vh;
-  background-color: aqua;
+  justify-content: space-around;
+  text-align: center;
+  height: 18vh;
   width: 100%;
 }
 
 .dvifotkes {
   display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 .batai3 {
-  width: 45%;
+  width: 50%;
 }
 .batai4 {
-  width: 45%;
+  display: flex;
+  width: 50%;
 }
 .hr2 {
-  margin-top: 1%;
-  margin-left: -5%;
-  border: 3px black solid;
-  width: 110%;
+  display: flex;
+  justify-content: center;
+
+  border: 2px black solid;
+  width: 100%;
 }
