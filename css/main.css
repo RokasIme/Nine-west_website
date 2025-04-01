@@ -234,15 +234,20 @@ h2 {
 }
 
 .keturiosft {
-  height: 25vh;
   display: flex;
+  width: 100%;
   justify-content: center;
   object-fit: cover;
+}
+
+.keturiosft > img {
+  width: 19%;
 }
 .hashtagtext {
   font-weight: bold;
   font-size: 20px;
   margin-bottom: 1%;
+  margin-top: 2%;
 }
 .vidtekstas {
   margin-bottom: 1%;
@@ -251,4 +256,12 @@ h2 {
   margin-top: 1%;
   text-align: center;
   margin-bottom: 5%;
+}
+
+.explore {
+  color: black;
+}
+
+.paskutineft {
+  width: 100%;
 }

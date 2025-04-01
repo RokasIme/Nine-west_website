@@ -1,0 +1,138 @@
+footer {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+/* .future-links {
+  width: 48%;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+} */
+.footers-left {
+  margin-left: 10%;
+  width: 30%;
+}
+
+.footers-left > p {
+  width: 100%;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-bottom: 7%;
+}
+
+.serch {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-left: 11%;
+}
+
+.search-foot {
+}
+
+.sign-up {
+  padding: 2px 20px;
+  background-color: black;
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-size: 10px;
+  width: fit-content;
+}
+
+.socials {
+  padding: 10px;
+  margin-right: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.socials a {
+  color: #000;
+}
+
+.footer-center {
+  margin-bottom: 20px;
+  top: 20px;
+  text-align: center;
+  padding: 20px;
+  width: 20%;
+  right: 20px;
+}
+
+.footer-customer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.care {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer-links a {
+  display: flex;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+  color: #000;
+}
+
+.footer-right {
+  width: 30%;
+  margin-right: 10%;
+}
+
+.btn {
+  margin-top: 10px;
+  border: none;
+  padding: 8px 15px;
+  font-size: 16px;
+  border-radius: 5px solid black;
+  margin: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+.order-assistance {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.accessibility {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.accessibility a {
+  display: flex;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 5px;
+  color: #000;
+}
+
+subfooter {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 2%;
+}
+sufooter > p {
+  margin: 0 10% 2%;
+}
