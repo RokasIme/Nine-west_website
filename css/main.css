@@ -19,7 +19,7 @@
 
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -71,7 +71,7 @@ header {
 .header__right {
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 34%;
 }
 .header__right__up {
   display: flex;
@@ -98,21 +98,25 @@ header {
   transform: translateY(-2px);
 }
 
+.fa-user-circle {
+  display: none;
+}
+
 .search__bar {
   position: relative;
 }
 
 .search__bar .icon {
   position: absolute;
-  top: 47%;
-  left: 10px;
+  top: 50%;
+  left: 0.62rem;
   transform: translateY(-50%);
 }
 
 .search__bar .input__text {
   border: lightgray solid 0.05em;
   background-color: #fff;
-  height: 15px;
+  height: 1rem;
   padding: 5px 5px 5px 35px;
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out;
@@ -126,6 +130,7 @@ header {
   display: flex;
   align-items: center;
   gap: 15px;
+  justify-content: flex-end;
 }
 .header__right__down > a {
   text-decoration: none;
@@ -198,12 +203,12 @@ h2 {
 
 .batai__row p {
   line-height: 2rem;
-  font-size: 13px;
+  font-size: 0.8rem;
 }
 
 .batai__row a {
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 0.87rem;
   color: #333;
   line-height: 2rem;
   font-weight: 550;
@@ -246,7 +251,7 @@ h2 {
 }
 .hashtagtext {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.25rem;
   margin-bottom: 1%;
   margin-top: 2%;
 }
