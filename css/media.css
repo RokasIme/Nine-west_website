@@ -1,0 +1,101 @@
+@media (max-width: 1203px) {
+  .header__links {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 900px) {
+  header {
+    flex-direction: column;
+  }
+  .header__nav {
+    width: 100%;
+  }
+  .header__right {
+    width: 100%;
+    margin-top: 2%;
+  }
+  .header__right__up {
+    display: none;
+  }
+  .header__right__down {
+    width: 100%;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 620px) {
+  .batai__row {
+    flex-direction: column;
+  }
+
+  .batai__row > div {
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+    margin: 2% 0;
+  }
+  .batai__row > div > img {
+    width: 40%;
+  }
+  .batai__row__text {
+    text-align: center;
+    width: 60%;
+  }
+  .batai__row__text > h2 {
+    font-size: 1.25em;
+    margin: 30px 0 17px;
+  }
+  .batai__row a {
+    font-size: 12px;
+  }
+  .batai__row p {
+    line-height: 1.5rem;
+  }
+  .toohot {
+    font-size: 1.25em;
+  }
+  .vid {
+    line-height: 1.5rem;
+  }
+
+  .div_prie_foto {
+    align-items: center;
+  }
+  .shophandbags {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 500px) {
+  .batai__row > div > img {
+    width: 50%;
+  }
+  .batai__row__text {
+    text-align: center;
+    width: 50%;
+  }
+  .batai__row__text > h2 {
+    font-size: 1em;
+    margin: 23px 0 12px;
+  }
+  .batai__row a {
+    font-size: 10px;
+  }
+  .batai__row p {
+    line-height: 1.2rem;
+  }
+  .toohot {
+    font-size: 1em;
+    line-height: 1.4rem;
+  }
+  .vid {
+    line-height: 1.2rem;
+  }
+  .div_prie_foto {
+    align-items: center;
+  }
+  .shophandbags {
+    font-size: 10px;
+  }
+}

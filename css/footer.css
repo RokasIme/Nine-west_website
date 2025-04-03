@@ -162,10 +162,21 @@ footer {
 
 .bank {
   display: flex;
-  width: 100%;
-  margin: 20px 0;
+  height: 15%;
+  width: 15%;
+  margin: 15px 0;
 }
 
 .bank > img {
-  width: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-right: 5px;
+  width: 60px;
+  height: 40px;
+  background-color: #fff;
+}
+
+.bank > img:first-child {
+  scale: 0.8;
 }
