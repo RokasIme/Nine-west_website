@@ -151,17 +151,25 @@ header {
 .antra,
 .trecia,
 .ketvirta {
-  height: 40%;
+  width: 40%;
   margin-top: 2rem;
   padding: 10px;
+}
+
+.prekes__div {
+  width: 100%;
+}
+
+.prekes div {
+  width: 25%;
 }
 
 .prekes {
   display: flex;
   justify-content: space-around;
   text-align: center;
-  height: 18vh;
   width: 100%;
+  margin-bottom: 2rem;
 }
 
 .dvifotkes {
