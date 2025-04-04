@@ -121,6 +121,7 @@ footer {
   margin-bottom: 4%;
   cursor: pointer;
   width: 100%;
+  color: #333;
 }
 
 .btn:hover {

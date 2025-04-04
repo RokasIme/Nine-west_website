@@ -25,6 +25,10 @@ body {
   flex-direction: column;
   margin: 0 3%;
 }
+section {
+  width: 100%;
+}
+
 header {
   width: 100%;
   display: flex;
