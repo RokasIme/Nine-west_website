@@ -209,6 +209,11 @@
   }
   .prekes p {
     font-size: 0.62rem;
+    line-height: 0.8rem;
+  }
+
+  .prekes a {
+    font-size: 0.62rem;
   }
   .email__pass,
   .sign__in,
