@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.top__section {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.products__left__column {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.products__left__column > img {
+  width: 100%;
+}
+
+.products__left__column > a {
+  text-transform: uppercase;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.products__left__column > a:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+}
+
+.products__right__column {
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+}
+
+.products__right__column > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  line-height: 1.6rem;
+}
+
+.products__right__column img {
+  display: flex;
+  width: 70%;
+}
+
+.products__right__column a {
+  text-decoration: underline;
+  color: #333;
+  opacity: 0.6;
+  text-transform: uppercase;
+}
+
+.underline {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  margin-top: 3rem;
+  justify-content: space-between;
+}
+
+.underline p {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.prekes a {
+  color: #333;
+  opacity: 0.6;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.prekes {
+  line-height: 1.6rem;
+}
+
+.prekes img {
+  margin: 0;
+}
+
+.three__photo {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.three__photo__inner {
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+}
+
+.three__photo__inner div {
+  display: flex;
+  flex-direction: column;
+  width: 32%;
+}
+
+.three__photo__inner img {
+  display: flex;
+  width: 100%;
+}
+.three__photo__inner a {
+  width: 100%;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #333;
+  font-weight: bold;
+  font-size: 0.8rem;
+  background-color: #e4ebf3;
+  text-align: center;
+  margin-top: 0.2rem;
+  padding: 0.7rem 0;
+}
+
+.three__photo__inner a:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+}
