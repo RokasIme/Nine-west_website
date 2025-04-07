@@ -139,6 +139,16 @@
   .sign__up {
     width: 70%;
   }
+  .top__section {
+    flex-direction: column;
+  }
+  .products__left__column,
+  .products__right__column {
+    width: 100%;
+  }
+  .three__photo__inner a {
+    font-size: 0.7rem;
+  }
 }
 
 /* 500px */
@@ -204,5 +214,12 @@
   .sign__in,
   .sign__up {
     width: 90%;
+  }
+  .three__photo__inner {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .underline p {
+    font-size: 0.7rem;
   }
 }
